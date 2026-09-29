@@ -1,0 +1,77 @@
+FRAUDIO 2.0.3 — AVENTURA
+Suelo más bajo, sol sonriente fijo en pantalla y nubes con ojos.
+Monedas recogibles en rutas seguras y tres emblemas por mundo.
+Dos puntos de control por nivel: al perder una vida se vuelve al último.
+Cofre con 10 monedas y burbuja protectora de 25 segundos (absorbe un golpe).
+Mapa con ocho mundos desbloqueables; recompensa de pañuelo esmeralda por 40 monedas.
+Botones Continuar aventura y Mundos y recompensas en la pantalla inicial.
+Guardado automático mediante localStorage, compatible con GitHub Pages.
+Se guarda mundo, dificultad, punto de control, monedas, emblemas y recompensa;
+no es una suspensión exacta en mitad de un salto. Continúa con cinco vidas.
+El guardado permanece en ese navegador y dominio. Borrar los datos del sitio
+lo elimina. Si el navegador bloquea el guardado, se puede seguir jugando.
+Los niveles tienen semilla fija para que reaparecer conserve el recorrido.
+Los tesoros y monedas recogidos no reaparecen al morir: evita duplicar premios.
+
+Se añadieron cofres y exploración en las rutas existentes. Esta versión no
+incluye interiores de casas, cuevas separadas ni niveles adicionales.
+Pruebas automáticas Canvas: ocho mundos, monedas, puntos de control, terreno
+repetible y escritura localStorage. No se probó en dispositivo físico.
+
+ACTUALIZACIÓN 2.0.2 — ACABADOS Y MÓVIL
+Letras geométricas gruesas incluidas, indicadores con borde y relieve.
+Casas de tejados curvos, escaleras redondeadas y bandera de tela ondulada.
+Suelo con grietas, juntas y sombras de profundidad.
+Lienzo proporcional sin estiramiento; adaptación a la orientación y zonas
+seguras del teléfono. Resolución interna limitada para cuidar el rendimiento.
+Controles separados y zonas de toque ajustadas a su tamaño.
+Pruebas Canvas en 390x844, 844x390, 360x800 y 768x1024.
+No se probó en un teléfono físico.
+
+ACTUALIZACIÓN 2.0.1 — COLOR Y BANDERA
+Paletas más luminosas: verdes vivos, azul cielo limpio, rojos y amarillos intensos.
+Los ocho mundos conservan su identidad de día, noche, nieve y volcán.
+Enemigo lanzador violeta con contorno oscuro, cañón crema y casco amarillo.
+El cañón apunta hacia el jugador y se ilumina antes de disparar.
+Bolas hostiles naranja/amarillo con borde oscuro y estela visible.
+Bandera con altura adaptada al encuadre. Fraudio baja por el poste y termina
+sobre el suelo, visible durante toda la animación de victoria.
+Sin filtros globales ni nuevas texturas pesadas.
+
+FRAUDIO 2.0 — REMASTER VISUAL
+Autor: Fraudy Martinez Madruga
+
+Extrae el ZIP completo. En Windows abre JUGAR_FRAUDIO_2.0.bat.
+También puedes abrir JUGAR.html en Chrome, Edge o Firefox.
+No requiere instalar Python, librerías ni descargar archivos adicionales.
+Mantén la carpeta assets junto al lanzador: contiene toda la música.
+
+CONTROLES
+Flechas / A D: mover. Espacio / W / arriba: saltar.
+X / Shift: disparar con el potenciador. P / Escape: pausa.
+M: silenciar. Enter: selector e inicio en dificultad normal.
+Móvil: botones táctiles; preferentemente en horizontal.
+
+CAMBIOS
+Personaje nuevo con gorra F, mochila y pañuelo; enemigos redibujados.
+Ocho paletas, árboles facetados, viviendas, montañas, nieve, mar y cristales.
+Terrenos, bloques, meta, menú, interfaz y pantallas de victoria renovados.
+Pausa, sonido, pantalla completa y pausa automática al ocultar la pestaña.
+Arte original generado con Canvas, sin archivos gráficos de Nintendo o Abeto.
+Se conserva el motor 2D, las ocho etapas y las pistas incluidas en el original.
+Esta entrega es un remaster 2D: no convierte el juego a 3D.
+
+RENDIMIENTO
+Fondos, escenarios y personajes se guardan en caché.
+Colisiones por sectores y enemigos fuera de pantalla sin dibujarse.
+Música cargada bajo demanda. Resolución lógica de 600 px de alto.
+
+VALIDACIÓN
+Sintaxis JavaScript, 800 fotogramas simulados entre los ocho mundos,
+movimiento, saltos, retirada de bloques, potenciador y pausa: correctos.
+Renderizado real del código con Canvas en el entorno de prueba.
+No se ha medido FPS en tu PC, navegador ni teléfono. No se garantiza una
+cifra de FPS universal. No se ha completado una partida de principio a fin.
+
+El sitio original sigue en index.html. El tráiler de assets/trailer corresponde
+a la versión anterior y se conserva como material histórico.
