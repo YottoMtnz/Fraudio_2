@@ -1,0 +1,130 @@
+{
+  "syntax": "OK",
+  "worlds": [
+    {
+      "world": 1,
+      "x": 513,
+      "y": 235,
+      "objects": 1754,
+      "enemies": 5,
+      "cache": 16,
+      "msPerFrame": 5.2
+    },
+    {
+      "world": 2,
+      "x": 513,
+      "y": 235,
+      "objects": 1791,
+      "enemies": 9,
+      "cache": 30,
+      "msPerFrame": 3.69
+    },
+    {
+      "world": 3,
+      "x": 513,
+      "y": 235,
+      "objects": 1683,
+      "enemies": 7,
+      "cache": 41,
+      "msPerFrame": 2.54
+    },
+    {
+      "world": 4,
+      "x": 513,
+      "y": 235,
+      "objects": 1770,
+      "enemies": 9,
+      "cache": 55,
+      "msPerFrame": 2.53
+    },
+    {
+      "world": 5,
+      "x": 513,
+      "y": 235,
+      "objects": 1736,
+      "enemies": 11,
+      "cache": 68,
+      "msPerFrame": 2.31
+    },
+    {
+      "world": 6,
+      "x": 513,
+      "y": 235,
+      "objects": 1832,
+      "enemies": 19,
+      "cache": 83,
+      "msPerFrame": 2.73
+    },
+    {
+      "world": 7,
+      "x": 513,
+      "y": 235,
+      "objects": 1804,
+      "enemies": 15,
+      "cache": 98,
+      "msPerFrame": 2.55
+    },
+    {
+      "world": 8,
+      "x": 513,
+      "y": 235,
+      "objects": 1786,
+      "enemies": 20,
+      "cache": 117,
+      "msPerFrame": 2.65
+    }
+  ],
+  "powerup": "OK",
+  "spatialRemoval": "OK",
+  "pause": "OK"
+}
+{
+  "flagRegression": [
+    {
+      "form": "small",
+      "minY": 140,
+      "maxY": 380,
+      "visibleFrames": 220,
+      "landed": true
+    },
+    {
+      "form": "big",
+      "minY": 140,
+      "maxY": 360,
+      "visibleFrames": 220,
+      "landed": true
+    }
+  ]
+}
+{
+  "mobile": [
+    {
+      "w": 390,
+      "h": 844,
+      "cw": 430,
+      "ch": 931,
+      "controls": "OK"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "cw": 1298,
+      "ch": 600,
+      "controls": "OK"
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "cw": 430,
+      "ch": 956,
+      "controls": "OK"
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "cw": 430,
+      "ch": 573,
+      "controls": "OK"
+    }
+  ]
+}

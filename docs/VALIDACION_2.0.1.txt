@@ -1,0 +1,98 @@
+{
+  "syntax": "OK",
+  "worlds": [
+    {
+      "world": 1,
+      "x": 513,
+      "y": 235,
+      "objects": 1717,
+      "enemies": 5,
+      "cache": 17,
+      "msPerFrame": 4.27
+    },
+    {
+      "world": 2,
+      "x": 513,
+      "y": 235,
+      "objects": 1748,
+      "enemies": 9,
+      "cache": 31,
+      "msPerFrame": 2.52
+    },
+    {
+      "world": 3,
+      "x": 513,
+      "y": 235,
+      "objects": 1763,
+      "enemies": 9,
+      "cache": 45,
+      "msPerFrame": 2.3
+    },
+    {
+      "world": 4,
+      "x": 513,
+      "y": 235,
+      "objects": 1686,
+      "enemies": 11,
+      "cache": 58,
+      "msPerFrame": 2.06
+    },
+    {
+      "world": 5,
+      "x": 513,
+      "y": 235,
+      "objects": 1723,
+      "enemies": 13,
+      "cache": 71,
+      "msPerFrame": 2.13
+    },
+    {
+      "world": 6,
+      "x": 513,
+      "y": 235,
+      "objects": 1692,
+      "enemies": 9,
+      "cache": 87,
+      "msPerFrame": 2.33
+    },
+    {
+      "world": 7,
+      "x": 513,
+      "y": 235,
+      "objects": 1781,
+      "enemies": 18,
+      "cache": 99,
+      "msPerFrame": 2.43
+    },
+    {
+      "world": 8,
+      "x": 513,
+      "y": 235,
+      "objects": 1739,
+      "enemies": 15,
+      "cache": 112,
+      "msPerFrame": 2.21
+    }
+  ],
+  "powerup": "OK",
+  "spatialRemoval": "OK",
+  "pause": "OK"
+}
+{
+  "flagRegression": [
+    {
+      "form": "small",
+      "minY": 140,
+      "maxY": 380,
+      "visibleFrames": 220,
+      "landed": true
+    },
+    {
+      "form": "big",
+      "minY": 140,
+      "maxY": 360,
+      "visibleFrames": 220,
+      "landed": true
+    }
+  ]
+}

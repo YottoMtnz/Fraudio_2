@@ -1,0 +1,131 @@
+{
+  "syntax": "OK",
+  "worlds": [
+    {
+      "world": 1,
+      "x": 513,
+      "y": 305,
+      "objects": 1779,
+      "enemies": 8,
+      "cache": 20,
+      "msPerFrame": 5.53
+    },
+    {
+      "world": 2,
+      "x": 513,
+      "y": 305,
+      "objects": 1748,
+      "enemies": 6,
+      "cache": 35,
+      "msPerFrame": 3.94
+    },
+    {
+      "world": 3,
+      "x": 513,
+      "y": 305,
+      "objects": 1776,
+      "enemies": 11,
+      "cache": 50,
+      "msPerFrame": 2.6
+    },
+    {
+      "world": 4,
+      "x": 513,
+      "y": 305,
+      "objects": 1772,
+      "enemies": 11,
+      "cache": 69,
+      "msPerFrame": 3.13
+    },
+    {
+      "world": 5,
+      "x": 513,
+      "y": 305,
+      "objects": 1792,
+      "enemies": 14,
+      "cache": 83,
+      "msPerFrame": 2.78
+    },
+    {
+      "world": 6,
+      "x": 513,
+      "y": 305,
+      "objects": 1785,
+      "enemies": 23,
+      "cache": 97,
+      "msPerFrame": 3.24
+    },
+    {
+      "world": 7,
+      "x": 513,
+      "y": 305,
+      "objects": 1737,
+      "enemies": 18,
+      "cache": 115,
+      "msPerFrame": 2.75
+    },
+    {
+      "world": 8,
+      "x": 513,
+      "y": 305,
+      "objects": 1755,
+      "enemies": 19,
+      "cache": 129,
+      "msPerFrame": 2.83
+    }
+  ],
+  "powerup": "OK",
+  "spatialRemoval": "OK",
+  "pause": "OK"
+}
+{
+  "flagRegression": [
+    {
+      "form": "small",
+      "minY": 140,
+      "maxY": 450,
+      "visibleFrames": 220,
+      "landed": true
+    },
+    {
+      "form": "big",
+      "minY": 140,
+      "maxY": 430,
+      "visibleFrames": 220,
+      "landed": true
+    }
+  ]
+}
+{
+  "mobile": [
+    {
+      "w": 390,
+      "h": 844,
+      "cw": 430,
+      "ch": 931,
+      "controls": "OK"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "cw": 1298,
+      "ch": 600,
+      "controls": "OK"
+    },
+    {
+      "w": 360,
+      "h": 800,
+      "cw": 430,
+      "ch": 956,
+      "controls": "OK"
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "cw": 430,
+      "ch": 573,
+      "controls": "OK"
+    }
+  ]
+}
+Coins, checkpoint respawn, localStorage and seeded terrain: OK
